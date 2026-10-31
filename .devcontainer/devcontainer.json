@@ -1,0 +1,17 @@
+// Ambiente de desenvolvimento para o curso de COBOL.
+// See https://aka.ms/devcontainer.json for more information.
+{
+	"name": "Curso COBOL (GnuCOBOL)",
+	"image": "eu.repository.roche.com/cde-gitpod-docker-prd-l/ona-base:2.0",
+
+	// Instala o compilador GnuCOBOL sempre que o container for criado.
+	"postCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y gnucobol && chmod +x rodar.sh verificar.sh",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bitlang.cobol"
+			]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  // Guias verticais no editor para o formato FIXO do COBOL:
+  // coluna 7 = indicador (* para comentario), 8 = Area A, 12 = Area B, 72 = limite.
+  "[COBOL]": {
+    "editor.rulers": [6, 7, 11, 72],
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false
+  },
+  "files.associations": {
+    "*.cbl": "COBOL",
+    "*.cob": "COBOL"
+  },
+  "files.trimTrailingWhitespace": false
+}

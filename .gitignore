@@ -1,0 +1,4 @@
+# Executaveis gerados pelo compilador
+bin/
+*.so
+*.o
